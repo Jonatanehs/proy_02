@@ -13,11 +13,13 @@ function multiply(a,b){
 }
 
 function divide(a,b){
-    if (b == 0){
-        return "Error: no se puede dividir entre cero"
-    } else {
-    return a / b;
-  }
+    if (b == 0 && a == 0)  {
+        return "No Aplica";
+    } else if(b==0){
+    return "n/a";
+    }  else {
+        return a / b;
+    }
 
 
 }
