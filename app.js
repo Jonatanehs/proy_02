@@ -1,6 +1,9 @@
+//el require, importa todas las funciones que necesita
 const functions = require('./functions.js')
 
 console.log(functions);
+
+// cuando se solicite imprimir un mensaje sin utilizar el console.log
 process.stdout.write("numero de ejercio 1\n\n");
 
 console.log(functions.add(5,3));
